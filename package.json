@@ -1,5 +1,5 @@
 {
-  "name": "DeployTest",
+  "name": "deploy-typescript",
   "private": true,
   "scripts": {
     "build": "turbo build",

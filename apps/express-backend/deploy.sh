@@ -1,7 +1,7 @@
 #!/bin/bash
 export PATH=$PATH:/home/ubuntu/.nvm/versions/node/v20.5.1/bin
 
-cd /home/ubuntu/week-12-monorepo-full
+cd /home/ubuntu/deploy-test
 git pull origin main
 yarn build
 pm2 stop express

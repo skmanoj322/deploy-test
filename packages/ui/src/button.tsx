@@ -7,5 +7,5 @@ interface ButtonProps {
 }
 
 export const Button = ({ appName }: ButtonProps) => {
-  return <button>Boop</button>;
+  return <button>{appName}</button>;
 };
